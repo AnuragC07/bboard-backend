@@ -7,7 +7,7 @@ const notesRoute = require("./routes/notesRoute");
 
 app.use(
     cors({
-        origin: 'https://bboard.netlify.app/',
+        origin: '*',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type'],
     })
